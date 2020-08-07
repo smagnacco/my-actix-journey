@@ -1,0 +1,9 @@
+*.tar
+*.gz
+.vscode
+/target
+/examples/target
+**/*.rs.bk
+.idea
+/.idea/
+airline-rs.iml

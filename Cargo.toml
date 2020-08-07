@@ -1,0 +1,18 @@
+[package]
+name = "marie_kondo"
+version = "0.1.0"
+authors = ["smagnacco <smangacco@despegar.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0"
+actix-rt = "1.1.1"
+env_logger = "0.7.1"
+dotenv = "0.15.0"
+log = "0.4.11"
+tracing = {version = "0.1.16", features = ["log"]}
+tracing-log = {version = "0.1.1", features = ["env_logger"]}
+tracing-subscriber = "0.2.7"
+
